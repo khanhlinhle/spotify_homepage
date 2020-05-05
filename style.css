@@ -1,24 +1,6 @@
-@font-face {
-    font-family: 'Circular';
-    src: url('../fonts/circular-book.ttf') format('truetype');
-    src: url('../fonts/circular-book.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Circular';
-    font-weight: bold;
-    src: url('../fonts/circular-bold.ttf') format('truetype');
-    src: url('../fonts/circular-bold.woff') format('woff');
-}
-
-body {
-    font-family: Circular;
-    font-weight: bold;
-}
-
 body {
     margin: 0;
-    font-family: Circular;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -205,13 +187,6 @@ a:hover {
     font-size: 20px;
 }
 
-.footer-text {
-    color: white;
-    justify-content: flex-start;
-    font-size: 12px;
-    text-decoration: none;
-}
-
 .footer-container {
     flex-direction: column;
 }
@@ -220,11 +195,33 @@ a:hover {
     display: flex;
 }
 
-.bottom-links {
-    list-style-type: none;
-    display: flex;
+.div-footer {
+    float: right;
 }
 
-.div-footer {
-    flex-direction: row;
+.footer-text {
+    font-size: 12px;
+    color: #919496;
+    text-align: center;
+}
+
+div ul {
+    display: flex;
+    letter-spacing: 0;
+    color: #919496;
+    list-style-type: none;
+}
+
+.bottom-links {
+    margin-right: 24px;
+    color: #919496;
+    font-size: 12px;
+    padding: 0;
+}
+
+.second-footer-text {
+    margin: 0 15px 0 auto;
+    color: #919496;
+    font-size: 12px;
+    padding: 1em 0;
 }

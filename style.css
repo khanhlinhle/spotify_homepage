@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Circular';
+    src: url('../fonts/circular-book.ttf') format('truetype');
+    src: url('../fonts/circular-book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Circular';
+    font-weight: bold;
+    src: url('../fonts/circular-bold.ttf') format('truetype');
+    src: url('../fonts/circular-bold.woff') format('woff');
+}
+
+body {
+    font-family: Circular;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: Circular;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(-60%, #f037a5), color-stop(140%, #fae62d));
+}
+
+footer {
+    height: 600px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.15;
+}
+
+.second-title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.button-box {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+.button-box:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.column h1 {
+    color: #919496;
+    font-size: 13.5px;
+}
+
+.column h1 p {
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-logo h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-icons {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons .fab {
+    margin: 15px;
+}
+
+.footer-icons .fab:hover {
+    color: green;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+}
+
+.container .left {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.container .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab {
+    font-size: 50px;
+}
+
+a:hover {
+    color: green;
+}
+
+.column p:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.left p:hover {
+    color: green;
+}
+
+.footer-icons-border {
+    border-radius: 50%;
+    background-color: #222326;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer-text {
+    color: white;
+    justify-content: flex-start;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-container {
+    flex-direction: column;
+}
+
+.style-container {
+    display: flex;
+}
+
+.bottom-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.div-footer {
+    flex-direction: row;
+}
